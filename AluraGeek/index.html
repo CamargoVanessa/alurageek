@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./assets/logo.svg" alt="AluraGeek" />
+        <h1>AluraGeek</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1 class="container-title-one">MEUS PRODUTOS:</h1>
+            <div class="produtos" id="cards"></div>
+        </section>
+
+        <section>
+            <h1 class="container-title-two">ADICIONAR PRODUTO:</h1>
+            <form class="form-container" data-form>
+                <input type="text" class="container-box" data-name placeholder="nome..." required>
+                <input type="number" class="container-box" data-price placeholder="preço..." required>
+                <input type="" class="container-box" data-image placeholder="imagem..." required>
+
+                <div class="button-container">
+                    <button type="guardar" class="button-guardar">Guardar</button>
+                    <button type="limpar" class="button-limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="./assets/logo.svg" alt="AluraGeek" />
+            <h1>AluraGeek</h1>
+        </div>
+        <p class="dev">DESENVOLVIDO POR VANESSA CAMARGO</p>
+        <p class="alura">ALURA LATAM - 2024</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
